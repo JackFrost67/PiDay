@@ -20,7 +20,7 @@ var rightCanvas = function(right){
   right.draw = function(){
     right.translate(r, r);
 
-    for(let i = 0; i < 1000; i++){
+    for(let i = 0; i < 100; i++){
       var x = right.random(-r, r);
       var y = right.random(-r, r);
       var d = right.sqrt(x * x + y * y);
