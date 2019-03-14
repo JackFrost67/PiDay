@@ -44,7 +44,7 @@ var rightCanvas = new p5(rightCanvas, 'rightCanvas');
 
 var leftCanvas = function (left){
   left.setup = function(){
-    //left.frameRate(10);
+    left.frameRate(60);
     var canvas = left.createCanvas(r * 2, r * 2);
     canvas.style('display', 'block');
   };
